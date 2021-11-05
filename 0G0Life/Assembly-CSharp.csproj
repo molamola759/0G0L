@@ -61,7 +61,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Character\Martial Hero\Martial Hero\License.txt" />
     <None Include="Assets\Environmnent\grunge-tileset-files-web\grunge-tileset-files-web\license.txt" />
-    <None Include="Assets\Sideview Sci-Fi - Patreon Collection\Sideview Sci-Fi - Patreon Collection\public-license.txt" />
+    <None Include="Assets\Environmnent\Sideview Sci-Fi - Patreon Collection\Sideview Sci-Fi - Patreon Collection\public-license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -82,7 +82,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Character\Martial Hero 2\Martial Hero 2\License.txt" />
-    <None Include="Assets\Warped Vehicles Files\Warped Vehicles Files\public-license.txt" />
+    <None Include="Assets\Environmnent\Warped Vehicles Files\Warped Vehicles Files\public-license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Character\Bringer-Of-Death\Bringer-Of-Death\Contact.txt" />
