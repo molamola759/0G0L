@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/GScenes/Menu.unity
     guid: cd5b895c7dbe1ba47904c5f28ab5034a
   - enabled: 0
-    path: Assets/GScenes/Lv1.unity
+    path: Assets/GScenes/Intro.unity
     guid: 603e72ab1ace5cf47bc127678947688c
   m_configObjects: {}
