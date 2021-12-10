@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 /// <summary>
@@ -10,6 +11,10 @@ public class DialougeSystems : MonoBehaviour
 {
     [Header("Converstion interval"), Range(0, 1)]
     public float interval = 0.3f;
+    [Header("Canvas Conversation Systems")]
+    public GameObject goDialogue;
+    [Header("Text Content")]
+    public Text textContent;
 
     private void Start()
     {
@@ -20,9 +25,13 @@ public class DialougeSystems : MonoBehaviour
     {
         string test = "It's a me Mario~ ";
 
+        textContent.text = "";   //Clean pervious Dialouge
+        goDialogue.SetActive(true); // 
+
         for (int i = 0; i < test.Length; i++)
         {
-            print(test[i]);
+            textContent.text += test[i]; //Superimpose Text Content UI
+            //print(test[i]);
             yield return new WaitForSeconds(interval);
         }
     }
