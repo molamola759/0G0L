@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/GScenes/Menu.unity
+- path: Assets/GScenes/TestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
