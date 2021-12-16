@@ -215,7 +215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5410253}
   - component: {fileID: 5410254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65793511}
   - component: {fileID: 65793512}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 71969102}
   - component: {fileID: 71969103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -543,7 +543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 94496630}
   - component: {fileID: 94496631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -842,7 +842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 173433912}
   - component: {fileID: 173433911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -924,7 +924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203325737}
   - component: {fileID: 203325738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1088,7 +1088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246492794}
   - component: {fileID: 246492795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292104204}
   - component: {fileID: 292104205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1838,7 +1838,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597783003}
   - component: {fileID: 597783004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1922,6 +1922,8 @@ GameObject:
   - component: {fileID: 624818133}
   - component: {fileID: 624818132}
   - component: {fileID: 624818135}
+  - component: {fileID: 624818137}
+  - component: {fileID: 624818136}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2027,9 +2029,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player_HP: 100
   Player_ATK: 5
-  Player_MoveSpeed: 5
+  Player_MoveSpeed: 2
+  Player_JumpHeigh: 65
   PlayerIsAttacking: 0
-  PlayerIsJumping: 0
+  PlayerisGround: 0
+  CircleRadius: 0.25
+  CenterOfCircle: {x: 0, y: -0.9, z: 0}
+  Ground:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!50 &624818136
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624818131}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!70 &624818137
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624818131}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.01616796, y: -0.08407378}
+  m_Size: {x: 0.18615596, y: 0.54185236}
+  m_Direction: 0
 --- !u!1 &646215344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,7 +2570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 932313211}
   - component: {fileID: 932313212}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_1 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2607,7 +2652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 944979060}
   - component: {fileID: 944979061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3360,7 +3405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216508015}
   - component: {fileID: 1216508016}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3442,7 +3487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1220660150}
   - component: {fileID: 1220660151}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3626,7 +3671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1263703029}
   - component: {fileID: 1263703030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4177,7 +4222,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1495764588}
   - component: {fileID: 1495764587}
-  m_Layer: 0
+  - component: {fileID: 1495764589}
+  m_Layer: 6
   m_Name: Road
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4228,6 +4274,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1495764589
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495764586}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.4110012, y: -4.4413376}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 21.53381, y: 0.55978394}
+  m_EdgeRadius: 0
 --- !u!1 &1547820307
 GameObject:
   m_ObjectHideFlags: 0
@@ -4317,7 +4389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557349925}
   - component: {fileID: 1557349926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4481,7 +4553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645443263}
   - component: {fileID: 1645443264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5259,7 +5331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1881624934}
   - component: {fileID: 1881624933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6077,7 +6149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2069333167}
   - component: {fileID: 2069333168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: tileset_1 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
