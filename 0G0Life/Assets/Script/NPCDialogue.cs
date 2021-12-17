@@ -3,7 +3,7 @@ using UnityEngine;
 /// <summary>
 /// NPC Activity
 /// Detect target into the Colli Zone
-/// Show Dialogue¡@Systems
+/// Show Dialogueï¿½@Systems
 /// </summary>
 
 public class NPCDialogue : MonoBehaviour

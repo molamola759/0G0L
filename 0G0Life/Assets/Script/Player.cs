@@ -43,13 +43,15 @@ public class Player : MonoBehaviour
 
     void JumpAnimation()
     {
-        if (PlayerisGround)
+        //if (Input.GetButton("Jump")) //Tricker Ver
+        if (PlayerisGround)            //Bool Ver
         {
-            animator.SetBool("Jump", false);
+            animator.SetBool("Jump", false); //B Ver
+            //animator.SetTrigger("jump 0"); //T Ver
         }
-        else
+        else                                 //B Ver
         {
-            animator.SetBool("Jump", true);
+            animator.SetBool("Jump", true);  //B Ver
         }
     }
     public void Player_Jumping()

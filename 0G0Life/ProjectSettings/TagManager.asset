@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Confinder
   - 
   - 
   - 
@@ -40,4 +40,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 219008635
+    locked: 0
+  - name: PlatformBG
+    uniqueID: 1872086571
+    locked: 0
+  - name: PlayerPlatform
+    uniqueID: 3474180301
+    locked: 0
+  - name: Player
+    uniqueID: 2211312865
+    locked: 0
+  - name: BGProp
+    uniqueID: 3028462039
     locked: 0
