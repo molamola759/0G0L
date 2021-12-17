@@ -5,6 +5,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class EnemyCop : MonoBehaviour
 {
+    #region
+    [Header("CheckTheChasingArea")]
+    public Vector3 v3TrackSize = Vector3.one;
+    public Vector3 v3TrackOffset;
+
     [Header("EnemyCopHP"), Range(0, 20)]
     public int EnemyCop_HP = 10;
 
@@ -20,15 +25,9 @@ public class EnemyCop : MonoBehaviour
     [Header("IsEnemyCopJumping")]
     public bool EnemyCopIsJumping = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("TargetLayer")]
+    public LayerMask layerTarget;
+    #endregion
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

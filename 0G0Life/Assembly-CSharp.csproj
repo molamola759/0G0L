@@ -60,6 +60,7 @@
     <Compile Include="Assets\Script\LearnCoroutine.cs" />
     <Compile Include="Assets\Script\DialougeSystems.cs" />
     <Compile Include="Assets\Script\DataDialogue.cs" />
+    <Compile Include="Assets\Script\NPCDialogue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

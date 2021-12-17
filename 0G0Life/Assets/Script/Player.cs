@@ -41,19 +41,30 @@ public class Player : MonoBehaviour
         PlayerisGround = isGround;
     }
 
+    void JumpAnimation()
+    {
+        if (PlayerisGround)
+        {
+            animator.SetBool("Jump", false);
+        }
+        else
+        {
+            animator.SetBool("Jump", true);
+        }
+    }
     public void Player_Jumping()
     {
         if (PlayerisGround && Input.GetButton("Jump"))
         {
             rb.AddForce(new Vector2(0, Player_JumpHeigh));
-            animator.SetBool("Jump", true);
-            print(animator.GetBool("Jump"));
-            print("in air ");
+            //animator.SetBool("Jump", true);
+            //print(animator.GetBool("Jump"));
+           // print("in air ");
         }
         if (PlayerisGround)
         {
 
-            animator.SetBool("Jump", false);
+            //sanimator.SetBool("Jump", false);
         }
 
 
@@ -119,6 +130,12 @@ public class Player : MonoBehaviour
     {
         Player_Move_Ctrl();
         Player_Jumping();
+    }
+
+
+    private void Update()
+    {
+        JumpAnimation();
         CheckGround();
     }
 
