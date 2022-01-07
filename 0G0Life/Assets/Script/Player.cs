@@ -139,6 +139,10 @@ public class Player : MonoBehaviour
     {
         JumpAnimation();
         CheckGround();
+        if(Input.GetButton("Fire1"))
+        {
+            animator.Play("RunShoot");
+        }
     }
 
 }

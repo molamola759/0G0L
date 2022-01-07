@@ -30,13 +30,24 @@ public class EnemyCop : MonoBehaviour
 
     [Header("Animation")]
     public string parameterWalk = "Run";
+    public string parameterAttack = "Attack";
 
     [Header("FacingTargetObj")]
     public Transform target;
 
+    [Header("Attack Distance"), Range(0, 5)]
+    public float attackDistance = 1.3f;
+
+    [Header("AttackCD"), Range(0, 10)]
+    public float attackCD = 2.8f;
+    [Header("CheckTheAttackRegion&Movement")]
+    public Vector3 v3AttackSize = Vector3.one;
+    public Vector3 v3AttackOffset;
+
     private float angle = 0;
     private Rigidbody2D rig;
     private Animator ani;
+    private float timerAttack;
     #endregion
 
     #region
@@ -50,6 +61,9 @@ public class EnemyCop : MonoBehaviour
     {
         Gizmos.color = new Color(1, 0, 0, 0.3f);
         Gizmos.DrawCube(transform.position + transform.TransformDirection(v3Trackoffset), v3TrackSize);
+
+        Gizmos.color = new Color(0, 1, 0, 0.3f);
+        Gizmos.DrawCube(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize);
     }
     #endregion
 
@@ -99,6 +113,32 @@ public class EnemyCop : MonoBehaviour
         // Distance = 3 dimensional vector.Distance(point A&point B)
         float distance = Vector3.Distance(target.position, transform.position);
         print("Distance With the Target:" + distance);
+
+        if (distance <= attackDistance)  // If Distance <= Attack distance
+        {
+            rig.velocity = Vector3.zero;  // stop
+            Attack();
+        }
+    }
+
+    [Header("Attack"), Range(0, 100)]
+    public float attack = 35;
+
+    ///<summary> Attack
+    private void Attack()
+    {
+        if (timerAttack < attackCD)   //if timer < CD Time
+        {
+            timerAttack += Time.deltaTime;   // Accumulated Time Time.deltaTime 1fps time
+        }
+        else 
+        {
+            ani.SetTrigger(parameterAttack);    // if Timer >= CDTime than Attack
+            timerAttack = 0;                    // Time return 0
+            Collider2D hit = Physics2D.OverlapBox(transform.position + transform.TransformDirection(v3AttackOffset), v3AttackSize, 0, layerTarget);
+            print("Somth got Hit:" + hit.name);
+            hit.GetComponent<DamageSystem>().Hurt(attack);
+        }
     }
 
 }
