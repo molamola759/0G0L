@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     #region
-
+    public LadderMovement ladderMovement;
     [Header("PlayerHealth")]
     public int Player_HP = 5;
     [Header("PlayerATK")]
@@ -37,8 +37,12 @@ public class Player : MonoBehaviour
 
     public void CheckGround()
     {
+        if (ladderMovement.isClimbing == false)
+        {
         Collider2D isGround = Physics2D.OverlapCircle(transform.position + CenterOfCircle, CircleRadius, Ground);
         PlayerisGround = isGround;
+            print("123");
+        }
     }
 
     void JumpAnimation()
@@ -106,7 +110,7 @@ public class Player : MonoBehaviour
         }
         else if (Horizontal > 0)
         {
-            sr.flipX = false;
+           sr.flipX = false;
         }
 
         if (Horizontal != 0)
@@ -127,6 +131,8 @@ public class Player : MonoBehaviour
             animator.SetBool("WalkONOFF", false);
         }
     }
+
+    
 
     private void FixedUpdate()
     {

@@ -8,13 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/GScenes/Menu.unity
     guid: cd5b895c7dbe1ba47904c5f28ab5034a
   - enabled: 1
     path: Assets/GScenes/Intro.unity
     guid: 603e72ab1ace5cf47bc127678947688c
-  - enabled: 1
+  - enabled: 0
     path: Assets/GScenes/LoadingScene.unity
     guid: aa0875d83c1d9d04fa79769d16938037
   - enabled: 1

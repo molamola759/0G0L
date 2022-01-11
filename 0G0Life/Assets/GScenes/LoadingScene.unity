@@ -492,7 +492,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 768633242}
-  - component: {fileID: 768633241}
   m_Layer: 0
   m_Name: loadingManager
   m_TagString: Untagged
@@ -500,28 +499,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &768633241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768633240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a7a1c40fca04a94f806d4edb7d07e72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: Player
-  LoadingPanel: {fileID: 938817770}
-  MinLoadTime: 2
-  LoadingWheel: {fileID: 678302563}
-  WheelSpeed: 2
-  FadeImage: {fileID: 886914104}
-  fadetime: 0.3
-  iLevelToLoad: 0
-  sLevelToLoad: 
-  useIntegerToLoadLevel: 1
 --- !u!4 &768633242
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,7 +1520,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1528245360}
-  - component: {fileID: 1528245359}
   m_Layer: 0
   m_Name: levelLoader
   m_TagString: Untagged
@@ -1551,21 +1527,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1528245359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528245358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff827f421f8457942881422e9a7959b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iLevelToLoad: 0
-  sLevelToLoad: 
-  useIntegerToLoadLevel: 1
 --- !u!4 &1528245360
 Transform:
   m_ObjectHideFlags: 0
