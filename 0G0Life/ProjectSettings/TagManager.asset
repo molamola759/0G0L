@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ladder
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,10 +18,10 @@ TagManager:
   - 
   - 
   - Confinder
-  - 
-  - 
-  - 
-  - 
+  - Bullet
+  - AI
+  - Enemy
+  - Ladder
   - 
   - 
   - 
@@ -54,11 +55,14 @@ TagManager:
   - name: Latter
     uniqueID: 3439659647
     locked: 0
-  - name: Player
-    uniqueID: 2211312865
-    locked: 0
   - name: BGProp
     uniqueID: 3028462039
+    locked: 0
+  - name: Bullet
+    uniqueID: 501057939
+    locked: 0
+  - name: Player
+    uniqueID: 2211312865
     locked: 0
   - name: AI
     uniqueID: 2586222477

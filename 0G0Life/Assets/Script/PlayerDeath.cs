@@ -6,8 +6,12 @@ public class PlayerDeath : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Death Zone"))
-        Destroy(gameObject);
-        LevelManager.instance.Respawn();
+        if (collision.gameObject.CompareTag("DeathZone"))
+        {
+            Destroy(gameObject);
+            LevelManager.instance.Respawn();
+        }
     }
+       
+    
 }

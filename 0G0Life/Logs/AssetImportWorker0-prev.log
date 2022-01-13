@@ -1,0 +1,1261 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16166 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/SFW/SchoolStuff/Unity/0G0L/0G0Life
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+9340
+Successfully changed project path to: D:/SFW/SchoolStuff/Unity/0G0L/0G0Life
+D:/SFW/SchoolStuff/Unity/0G0L/0G0Life
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 59.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/SFW/SchoolStuff/Unity/0G0L/0G0Life/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002805 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4346ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (552ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (261ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002771 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1143ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (546ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.9 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 3.786900 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.129900 ms MarkObjects: 3.311900 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/GScenes/BossFight.unity
+  artifactKey: Guid(4c4a4edf5c028f448abc2000047c5e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GScenes/BossFight.unity using Guid(4c4a4edf5c028f448abc2000047c5e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625883ec6f937392dfb9a3d8ed214714') in 0.020868 seconds 
+  Import took 0.071582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.720694 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline
+  artifactKey: Guid(7e656a25525a9b6488b16ddba90cce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline using Guid(7e656a25525a9b6488b16ddba90cce33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1577f8cf059039fc6f8fe528e87955a6') in 0.036744 seconds 
+  Import took 0.101041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.673345 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Layers
+  artifactKey: Guid(832708f552fff734ea4dc5f07a940610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Layers using Guid(832708f552fff734ea4dc5f07a940610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09abf666e9b47e43425dbbd80fd1337d') in 0.012258 seconds 
+  Import took 0.039106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.455078 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples
+  artifactKey: Guid(73e9d480431de014598b14b4bf8de057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples using Guid(73e9d480431de014598b14b4bf8de057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120758bb2d3b39d921a5713fa178a594') in 0.028745 seconds 
+  Import took 0.086955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation01).png
+  artifactKey: Guid(28c2bdd52e600ad4a903cf2defbc5fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation01).png using Guid(28c2bdd52e600ad4a903cf2defbc5fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8ee31c707e7885cb6123a43e163796') in 0.210861 seconds 
+  Import took 0.297100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation02).png
+  artifactKey: Guid(16c5a035b22664c4e9a232d03d39d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation02).png using Guid(16c5a035b22664c4e9a232d03d39d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a49c48cd22193dc115d0366f7cc18') in 0.053645 seconds 
+  Import took 0.123228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation04).png
+  artifactKey: Guid(1342d85fbf6d3cb45b5d7fb3ff7d6416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation04).png using Guid(1342d85fbf6d3cb45b5d7fb3ff7d6416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8a9d91f7f44b570f4cd2643e815b02') in 0.054835 seconds 
+  Import took 0.089835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation03).png
+  artifactKey: Guid(863e2a6214ab6984291db5e6c4268de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/background_city_skyline/Background_City_Skyline/Exemples/Background_City_Skyline_(Visualisation03).png using Guid(863e2a6214ab6984291db5e6c4268de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f00367735738168f3744f4bf3f4772b') in 0.045064 seconds 
+  Import took 0.076872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.542376 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files
+  artifactKey: Guid(cf13ae07955a7d440b3bfdbfd93dcf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files using Guid(cf13ae07955a7d440b3bfdbfd93dcf60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d1c250e209193414341230a4de87ea') in 0.014420 seconds 
+  Import took 0.044932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.447397 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/Environmet
+  artifactKey: Guid(056a45b5ec8edef428657bece6835fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/Environmet using Guid(056a45b5ec8edef428657bece6835fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f363491573d854bb838b83eca5d2ca2') in 0.014318 seconds 
+  Import took 0.038777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.192278 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/aseprite
+  artifactKey: Guid(a120b0f5462d6a849821c2c6be22a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/aseprite using Guid(a120b0f5462d6a849821c2c6be22a95d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd74188ec0e6feea3472737cfe68b83') in 0.009452 seconds 
+  Import took 0.079408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.946048 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/Sprites
+  artifactKey: Guid(c06c849f9fc597649bde9a46888ab604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/Sprites using Guid(c06c849f9fc597649bde9a46888ab604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d12f907261c29aba554fd5c13904dd3') in 0.049148 seconds 
+  Import took 0.077620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001507 seconds.
+  path: Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/Sprites/Player
+  artifactKey: Guid(86a4041f765b8504a84dc9b6f39935cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/cyberpunk city 2 files 1/__MACOSX/cyberpunk city 2 files/Sprites/Player using Guid(86a4041f765b8504a84dc9b6f39935cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a705a7dd3632e176d5ece24aa4cc2b7c') in 0.012242 seconds 
+  Import took 0.050114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.540978 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/bulkhead-walls.psd
+  artifactKey: Guid(2dd909635c1ffce40a55c8bc8cad2fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/bulkhead-walls.psd using Guid(2dd909635c1ffce40a55c8bc8cad2fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ba23fc431652135ccb5d802824d54a') in 0.072011 seconds 
+  Import took 0.115790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/bulkhead-wallsx3.png
+  artifactKey: Guid(0bfbd6ac249b9af47821071051d27efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/bulkhead-wallsx3.png using Guid(0bfbd6ac249b9af47821071051d27efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3ea16397846af4ed96b002abc1655f') in 0.086450 seconds 
+  Import took 0.104384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/bulkhead-wallsx1.png
+  artifactKey: Guid(b18c9f70ee2ced148baadf631cdeaaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/bulkhead-wallsx1.png using Guid(b18c9f70ee2ced148baadf631cdeaaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279825e91215d076a0d085598055cc1c') in 0.047692 seconds 
+  Import took 0.104066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.038911 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers
+  artifactKey: Guid(b1f48bebdbe9dcd489c7cdefc97a5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers using Guid(b1f48bebdbe9dcd489c7cdefc97a5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4b9a93c577b101c6799186d59d1435') in 0.011446 seconds 
+  Import took 0.056940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-pipes.png
+  artifactKey: Guid(bc089b5b31da6a74b808488dafe641a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-pipes.png using Guid(bc089b5b31da6a74b808488dafe641a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d1f28ef32b6fe31a05856faf23088c') in 0.142602 seconds 
+  Import took 0.226850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-back.png
+  artifactKey: Guid(ff5ad04803057684284a77b7c35090f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers/bulkhead-walls-back.png using Guid(ff5ad04803057684284a77b7c35090f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544054032327ea2d62fbc61b102e525b') in 0.091192 seconds 
+  Import took 0.126297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers/cols.png
+  artifactKey: Guid(668b435b4d44767499de0fceb200417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/bulkhead-walls-files/bulkhead-walls-files/layers/cols.png using Guid(668b435b4d44767499de0fceb200417c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8ecc88e1e32ec0140fa8f0c20177df') in 0.043467 seconds 
+  Import took 0.114820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.888291 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective
+  artifactKey: Guid(865a2e7969c0c0546ad13d83b4b012b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective using Guid(865a2e7969c0c0546ad13d83b4b012b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed7c07ea31ff009682fd0b10ed32777') in 0.028838 seconds 
+  Import took 0.035756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.469569 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews
+  artifactKey: Guid(38eddb1d4ed107142b5825aa85bc9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews using Guid(38eddb1d4ed107142b5825aa85bc9c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d274861b335e2b144954c82ecd09b3') in 0.012811 seconds 
+  Import took 0.054573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122177 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/crouch.gif
+  artifactKey: Guid(a8fe7d77eaace10438c8730fd1f91283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/crouch.gif using Guid(a8fe7d77eaace10438c8730fd1f91283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e41813e0e49d9c8091cef90bb254a1') in 0.064793 seconds 
+  Import took 0.095140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/punch.gif
+  artifactKey: Guid(64f35114556d6a6409479a9d9cd31117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/punch.gif using Guid(64f35114556d6a6409479a9d9cd31117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667f0480c180952b44606f3941c38a6d') in 0.044937 seconds 
+  Import took 0.090365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/draw-gun.gif
+  artifactKey: Guid(8e52d19f9fd1ceb4bb1506a6a3b3c482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/draw-gun.gif using Guid(8e52d19f9fd1ceb4bb1506a6a3b3c482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08399a4cfdc6b2f856d3d9d9ebf98547') in 0.056245 seconds 
+  Import took 0.101299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/death.gif
+  artifactKey: Guid(d6aad0fe21e663642be01eace2a17b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/death.gif using Guid(d6aad0fe21e663642be01eace2a17b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849359130c4dd26d3713048d5c08ea5c') in 0.064892 seconds 
+  Import took 0.119469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/shot.gif
+  artifactKey: Guid(f2fecb8a66b6ece47bc23157917e8b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/shot.gif using Guid(f2fecb8a66b6ece47bc23157917e8b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8f0223f6a21d5c5106865c270ac733') in 0.057422 seconds 
+  Import took 0.118578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/gun-walk.gif
+  artifactKey: Guid(0d00a593ec147ad408a656981377f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/gun-walk.gif using Guid(0d00a593ec147ad408a656981377f492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840b76b5c6ea706416058948330f2bc2') in 0.070537 seconds 
+  Import took 0.089009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/walk.gif
+  artifactKey: Guid(2a688830c11de984089db48aa2ef449d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/walk.gif using Guid(2a688830c11de984089db48aa2ef449d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b3c3d6905373e82d200182fdcdc4c9') in 0.051268 seconds 
+  Import took 0.081003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.251948 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites
+  artifactKey: Guid(9077a2ebe9a76374582b29b160571174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites using Guid(9077a2ebe9a76374582b29b160571174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b447e30731a268f73094f902e67cd97') in 0.012546 seconds 
+  Import took 0.036899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160032 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death
+  artifactKey: Guid(dd0002f2b0da81c4faa36da74e804da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death using Guid(dd0002f2b0da81c4faa36da74e804da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36c25ee1ec248b68c40aec9164bbaa7') in 0.005852 seconds 
+  Import took 0.015159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051424 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-1.png
+  artifactKey: Guid(20863ff53d7876f4686fb9487057318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-1.png using Guid(20863ff53d7876f4686fb9487057318d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef94576c90d834a74c658cbac4c6f13a') in 0.099989 seconds 
+  Import took 0.162540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-3.png
+  artifactKey: Guid(82bf06d3bd3c96d44a93b975252b0f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-3.png using Guid(82bf06d3bd3c96d44a93b975252b0f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030e40111020fd283e0f9e0a903e41e8') in 0.044584 seconds 
+  Import took 0.075052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-2.png
+  artifactKey: Guid(bfae5c0b897389f469cf803e07d6086a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-2.png using Guid(bfae5c0b897389f469cf803e07d6086a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f13c97b854c5cfb3bb53a0ccdc70b2') in 0.050468 seconds 
+  Import took 0.076417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-5.png
+  artifactKey: Guid(eaac6da76216d88499b3a0535fbfe8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-5.png using Guid(eaac6da76216d88499b3a0535fbfe8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6675a2d33fe19c6a2f958f3220d3baee') in 0.051842 seconds 
+  Import took 0.056565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-4.png
+  artifactKey: Guid(150172d32aa06634f84f9c8af6fadc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/death/Layer-4.png using Guid(150172d32aa06634f84f9c8af6fadc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f246e0a48c2c499a69f2967b78c862ac') in 0.057846 seconds 
+  Import took 0.076894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.885992 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/crouch.psd
+  artifactKey: Guid(05428eaf99176b64189fff6b7a95ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/crouch.psd using Guid(05428eaf99176b64189fff6b7a95ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63d9b5e624d207e1d539c54cc20755a') in 0.136050 seconds 
+  Import took 0.142178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/draw-gun.psd
+  artifactKey: Guid(04ee17cbfaeae9f499620707d115e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/draw-gun.psd using Guid(04ee17cbfaeae9f499620707d115e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002005c1b3fcb8b649f81adc16c12c7c') in 0.062623 seconds 
+  Import took 0.067572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/shot.psd
+  artifactKey: Guid(54f731b55473b5a4c94f66f157e00c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/shot.psd using Guid(54f731b55473b5a4c94f66f157e00c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b5d72929c7eae57f21c99107bea897') in 0.066931 seconds 
+  Import took 0.117218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/gun-walk.psd
+  artifactKey: Guid(1df63d49c9e4e5443a7f8351491760eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/gun-walk.psd using Guid(1df63d49c9e4e5443a7f8351491760eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35fc1d7da5867bfee2aa2fbcec0359a5') in 0.044798 seconds 
+  Import took 0.068549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/punch.psd
+  artifactKey: Guid(dc4013bf356654a42bc8e337419b599e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/punch.psd using Guid(dc4013bf356654a42bc8e337419b599e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28fa15b0f2333d40cbea01814531914') in 0.048785 seconds 
+  Import took 0.073992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/cyberpunk-detective.psd
+  artifactKey: Guid(82eda476f667c2c4883d65dfa4634a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/cyberpunk-detective.psd using Guid(82eda476f667c2c4883d65dfa4634a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890250fd6b6d41e6a293dc75c6f332c3') in 0.054359 seconds 
+  Import took 0.079433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/death.psd
+  artifactKey: Guid(985f6442718e34f40b01411529f21801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/death.psd using Guid(985f6442718e34f40b01411529f21801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c95889f9c6c94c4fbe25f2f4f9e1355') in 0.045846 seconds 
+  Import took 0.080176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/walk.psd
+  artifactKey: Guid(2ccabafd5fde8324c91cd5cd2a58b484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/walk.psd using Guid(2ccabafd5fde8324c91cd5cd2a58b484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7828db40c7e7172526a1a7ce590bbc8c') in 0.044979 seconds 
+  Import took 0.094079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.045297 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites
+  artifactKey: Guid(b1b68ba9d37c25246bc78c6ae6242f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/sprites using Guid(b1b68ba9d37c25246bc78c6ae6242f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56142463783571cc20f9d5269667be8') in 0.135210 seconds 
+  Import took 0.169778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.404594 seconds.
+  path: Assets/Environmnent/warped city files/warped city files
+  artifactKey: Guid(ad93eff6ac51a6243b3c5702de2d85b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/warped city files/warped city files using Guid(ad93eff6ac51a6243b3c5702de2d85b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e5dc750f18652266eff6963a42037f') in 0.028068 seconds 
+  Import took 0.036311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.179178 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props
+  artifactKey: Guid(47885df1386aaeb45a9149287b21f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props using Guid(47885df1386aaeb45a9149287b21f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d189de29a8ef489fe2d1d1ba67bc2c') in 0.010882 seconds 
+  Import took 0.110944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970127 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG
+  artifactKey: Guid(7faa0cbdcbacb86478e807f6880d38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG using Guid(7faa0cbdcbacb86478e807f6880d38ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93d6fd66a4180e87a17a2c00bdced3d') in 0.059167 seconds 
+  Import took 0.084563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/elevator.png
+  artifactKey: Guid(783e252ea4344ae42a66d544e752bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/elevator.png using Guid(783e252ea4344ae42a66d544e752bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbca0ddcc772bd87573d0eeb658e00cb') in 0.127403 seconds 
+  Import took 0.162937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/cryo-pod.png
+  artifactKey: Guid(afc5c7754d239aa468d1006a08c284dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/cryo-pod.png using Guid(afc5c7754d239aa468d1006a08c284dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10b24dde59696944eff3d68f097d6d') in 0.078031 seconds 
+  Import took 0.112820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/small-terminal.png
+  artifactKey: Guid(f7f730743f315ca4693a2510d0e682d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/small-terminal.png using Guid(f7f730743f315ca4693a2510d0e682d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e9a53a42cfc61e5fa6856bd3ab9d1') in 0.060799 seconds 
+  Import took 0.094951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/cyberpunk-props-preview.png
+  artifactKey: Guid(d4e67dd9ff5a9ae4489768ddbbaeca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/cyberpunk-props-preview.png using Guid(d4e67dd9ff5a9ae4489768ddbbaeca3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad730f0ab111240bea234c607a1e5a0a') in 0.074281 seconds 
+  Import took 0.128230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/big-computer.png
+  artifactKey: Guid(1cd8bd9f1c7fcb54aa2de8e673e40248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/big-computer.png using Guid(1cd8bd9f1c7fcb54aa2de8e673e40248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c517d416510318455d8887bf43141fef') in 0.054806 seconds 
+  Import took 0.059511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/elevator-track.png
+  artifactKey: Guid(08148e1df4c30c9418f5042cb17b053a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/elevator-track.png using Guid(08148e1df4c30c9418f5042cb17b053a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683d9e063211f7374e34185ca413360c') in 0.045542 seconds 
+  Import took 0.105941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/hanging-terminal.png
+  artifactKey: Guid(b26a854f974c4ec4cbef6fc211f698da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-detective-props/PNG/hanging-terminal.png using Guid(b26a854f974c4ec4cbef6fc211f698da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afba321f25bf82099982a37f3c48d531') in 0.085763 seconds 
+  Import took 0.117367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.107826 seconds.
+  path: Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files
+  artifactKey: Guid(9ae21e31afb056441851dd128009edd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environmnent/Sideview Sci-Fi - Patreon Collection/Sideview Sci-Fi - Patreon Collection/Environments/cyberpunk-corridor-files using Guid(9ae21e31afb056441851dd128009edd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b902824d5d273642a44f0983c45c89') in 0.012086 seconds 
+  Import took 0.032875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 949.816075 seconds.
+  path: Assets/GScenes/Lv2.unity
+  artifactKey: Guid(4dfa51c292ae1a74098e612d4ec3cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GScenes/Lv2.unity using Guid(4dfa51c292ae1a74098e612d4ec3cbde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159f982861504541bb46d2fb36d52134') in 0.017644 seconds 
+  Import took 0.100283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.018367 seconds.
+  path: Assets/Script/PlayerDeath.cs
+  artifactKey: Guid(f94599e5b0307f7429ac1d0d0eeecd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerDeath.cs using Guid(f94599e5b0307f7429ac1d0d0eeecd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e9b846bfbdb898e72304cb4325fd85') in 0.018379 seconds 
+  Import took 0.025907 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003058 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Domain Reload Profiling:
+	ReloadAssembly (914ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 2.760700 ms (FindLiveObjects: 0.207800 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.442100 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49.999591 seconds.
+  path: Assets/Script/PlayerDeath.cs
+  artifactKey: Guid(f94599e5b0307f7429ac1d0d0eeecd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/PlayerDeath.cs using Guid(f94599e5b0307f7429ac1d0d0eeecd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7f8723b47a704fa75d72839e83112c') in 0.003992 seconds 
+  Import took 0.007743 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (829ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2750.
+Total: 2.662700 ms (FindLiveObjects: 0.209600 ms CreateObjectMapping: 0.092200 ms MarkObjects: 2.347600 ms  DeleteObjects: 0.012400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002282 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (746ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2753.
+Total: 2.714500 ms (FindLiveObjects: 0.237100 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.319000 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2756.
+Total: 2.892900 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.568900 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Domain Reload Profiling:
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.9 MB.
+System memory in use after: 107.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2759.
+Total: 2.999000 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.672200 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Domain Reload Profiling:
+	ReloadAssembly (922ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2762.
+Total: 4.113600 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.222200 ms MarkObjects: 3.459900 ms  DeleteObjects: 0.024900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.121 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1122ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (303ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2765.
+Total: 2.702600 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.100300 ms MarkObjects: 2.350200 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (917ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 2.929200 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.108300 ms MarkObjects: 2.590100 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1031ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2771.
+Total: 14.814600 ms (FindLiveObjects: 1.163800 ms CreateObjectMapping: 0.894400 ms MarkObjects: 12.724400 ms  DeleteObjects: 0.027600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1218.396171 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(199513c8d6ecf4f4490a62bafcc20091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(199513c8d6ecf4f4490a62bafcc20091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ba05a87152d7796f6b5457b8677f45') in 0.006787 seconds 
+  Import took 0.013200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.106 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1107ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (888ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.0 MB.
+System memory in use after: 107.2 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2774.
+Total: 4.619300 ms (FindLiveObjects: 0.388200 ms CreateObjectMapping: 0.223900 ms MarkObjects: 3.983500 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.996810 seconds.
+  path: Assets/Script/Player.cs
+  artifactKey: Guid(199513c8d6ecf4f4490a62bafcc20091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Player.cs using Guid(199513c8d6ecf4f4490a62bafcc20091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beb4ba538cece65eccd668862c4d040') in 0.004119 seconds 
+  Import took 0.008285 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (854ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.1 MB.
+System memory in use after: 107.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2777.
+Total: 3.100300 ms (FindLiveObjects: 0.213300 ms CreateObjectMapping: 0.091400 ms MarkObjects: 2.747100 ms  DeleteObjects: 0.047600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

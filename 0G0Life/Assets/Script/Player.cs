@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     #region
     public LadderMovement ladderMovement;
+    public static float Horizontal;
     [Header("PlayerHealth")]
     public int Player_HP = 5;
     [Header("PlayerATK")]
@@ -30,7 +31,7 @@ public class Player : MonoBehaviour
     #endregion
 
     private Rigidbody2D rb;
-    private SpriteRenderer sr;
+    public static SpriteRenderer sr;
     private Animator animator;
 
     //#region method
@@ -41,7 +42,7 @@ public class Player : MonoBehaviour
         {
         Collider2D isGround = Physics2D.OverlapCircle(transform.position + CenterOfCircle, CircleRadius, Ground);
         PlayerisGround = isGround;
-            print("123");
+            //print("123");
         }
     }
 
@@ -91,7 +92,7 @@ public class Player : MonoBehaviour
 
     public void Player_Move_Ctrl()
     {
-        float Horizontal = Input.GetAxis("Horizontal");
+         Horizontal = Input.GetAxis("Horizontal");
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -132,6 +133,18 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void FireInTheHole()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            animator.SetTrigger("Shoot1");
+        }
+
+    }
+    //void Player.firePoint()
+   //{
+        
+    //}
     
 
     private void FixedUpdate()
@@ -145,10 +158,16 @@ public class Player : MonoBehaviour
     {
         JumpAnimation();
         CheckGround();
-        if(Input.GetButton("Fire1"))
+        FireInTheHole();
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("DeathZone"))
         {
-            animator.Play("RunShoot");
+            Destroy(gameObject);
         }
     }
+    
 
 }
