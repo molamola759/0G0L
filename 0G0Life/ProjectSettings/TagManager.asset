@@ -67,3 +67,6 @@ TagManager:
   - name: AI
     uniqueID: 2586222477
     locked: 0
+  - name: Boss
+    uniqueID: 1283371711
+    locked: 0

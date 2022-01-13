@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class Player : MonoBehaviour
     public LadderMovement ladderMovement;
     public static float Horizontal;
     [Header("PlayerHealth")]
-    public int Player_HP = 5;
+    public int Player_HP =  5;
     [Header("PlayerATK")]
     public int Player_ATK = 1;
     [Header("PlayerMoveSpeed")]
@@ -27,6 +28,7 @@ public class Player : MonoBehaviour
     [Tooltip("Center of Circle")]
     public Vector3 CenterOfCircle;
     public LayerMask Ground;
+    public GameObject deathEffect;
 
     #endregion
 
@@ -169,5 +171,21 @@ public class Player : MonoBehaviour
         }
     }
     
+    public void TakeDamage (int damage)
+    {
+        Player_HP -= damage;
+        print("HP --");
+        if (Player_HP <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+        SceneManager.LoadScene("Lv2");
+    }
 
 }

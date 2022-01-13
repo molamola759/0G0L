@@ -12,9 +12,11 @@ public class EnemyBullet : MonoBehaviour
         StartCoroutine(CountDownTimer());
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        
+        Player enemy = hitInfo.GetComponent<Player>();
+        enemy.TakeDamage(5);
+        Destroy(gameObject);
     }
 
     IEnumerator CountDownTimer()

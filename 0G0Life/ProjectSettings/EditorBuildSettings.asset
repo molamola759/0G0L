@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GScenes/Intro.unity
     guid: 603e72ab1ace5cf47bc127678947688c
-  - enabled: 0
-    path: Assets/GScenes/LoadingScene.unity
-    guid: aa0875d83c1d9d04fa79769d16938037
   - enabled: 1
     path: Assets/GScenes/Lv2.unity
     guid: 4dfa51c292ae1a74098e612d4ec3cbde
+  - enabled: 1
+    path: Assets/GScenes/EndScene.unity
+    guid: dcb9e7ad259cf504f8dbe67a0f8ef24e
   m_configObjects: {}

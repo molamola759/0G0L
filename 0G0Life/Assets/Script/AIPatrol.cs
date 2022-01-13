@@ -18,6 +18,7 @@ public class AIPatrol : MonoBehaviour
     public Collider2D bodycollider;
     public Transform player, shootPos;
     public GameObject bullet;
+    private Animator animator;
 
     private void Start()
     {
@@ -30,6 +31,7 @@ public class AIPatrol : MonoBehaviour
         if (mustPatrol)
         {
             Patrol();
+            
         }
         distToPlayer = Vector2.Distance(transform.position, player.position);
 
@@ -45,6 +47,7 @@ public class AIPatrol : MonoBehaviour
 
             if(canshoot)
             StartCoroutine(Shoot());
+           
         }
         else
         {
